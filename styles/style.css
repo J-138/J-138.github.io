@@ -1,0 +1,97 @@
+/* misc */
+.test {
+    border: 1px solid black;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+.test2 {
+    font-size: 5rem;
+}
+
+p.contact-info {
+    display: flex;
+    align-content: center;
+}
+
+.contact-info a:link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contact-info a:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: aliceblue;
+}
+
+.contact-info a:active {
+    color: aliceblue;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* top of page containers */
+.top_container {
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(135deg, #1e1e1e, white);
+}
+
+.top__container-1 {
+    margin: 5% 0% 5% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.top__profile-pic {
+    max-width: 15%;
+    height: auto;
+    border-radius: 50%;
+    padding: 5rem;
+}
+
+.top__personal-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-info-font {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top__name {
+    font-size: 10rem;
+}
+
+.top__contact {
+    font-size: 4rem;
+    list-style: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* projects sections */
+.mid_container {
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(#1e1e1e, white);
+}
+
+.rounded-square-1 {
+    background-image: linear-gradient(black, grey);
+    color: white;
+    font-size: 8rem;
+    width: fit-content;
+    border-radius: 25% 10%;
+    padding: 1rem 3rem;
+}
